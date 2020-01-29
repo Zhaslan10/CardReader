@@ -1,0 +1,2 @@
+ #!/bin/sh
+java -Dsun.security.smartcardio.library=/lib/i386-linux-gnu/libpcsclite.so.1 -jar /usr/local/workspace/IdReaderService-1.0.3.4-full.jar -li true -sto 300000
